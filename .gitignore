@@ -1,0 +1,37 @@
+# Local .terraform directories
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+.terraform.lock.hcl
+
+# Backup directories
+*backup*
+*/backup*
+Backup/
+backup/
+
+# Binary files
+*.exe
+*.dll
+*.so
+*.dylib
+*.bin
+*.exe*
+
+# Terraform provider binaries
+terraform-provider-*
+**/.terraform/providers/*.exe
+**/.terraform/providers/*.dll
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+crash.log

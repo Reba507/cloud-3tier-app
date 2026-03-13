@@ -1,0 +1,32 @@
+variable "region" {
+  default = "us-east-1"
+}
+
+variable "project_name" {
+  default = "cloud-3tier"
+}
+
+# Existing resource IDs
+variable "existing_vpc_id" {
+  description = "Use existing VPC instead of creating new one"
+  type        = string
+  default     = ""
+}
+
+variable "existing_public_subnet_1" {
+  description = "Use existing public subnet 1"
+  type        = string
+  default     = ""
+}
+
+variable "existing_public_subnet_2" {
+  description = "Use existing public subnet 2"
+  type        = string
+  default     = ""
+}
+
+variable "existing_igw_id" {
+  description = "Use existing Internet Gateway"
+  type        = string
+  default     = ""
+}
